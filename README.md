@@ -13,6 +13,7 @@ Django 2.2.16
 - POSTGRES_PASSWORD=postgres # пароль для подключения к БД (установите свой)
 - DB_HOST=db # название сервиса (контейнера)
 - DB_PORT=5432 # порт для подключения к БД 
+- SECRET_KEY='' # Django settings key
 
 ### Сборка и запуск контейнеров:
 - docker-compose -d --build
